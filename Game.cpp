@@ -28,8 +28,6 @@ void act(float dt)
 {
   if (is_key_pressed(VK_ESCAPE))
     schedule_quit_game();
-  if (is_key_pressed(VK_SPACE))
-      printf("Ty PIDOR\n");
 }
 
 // fill buffer in this function
